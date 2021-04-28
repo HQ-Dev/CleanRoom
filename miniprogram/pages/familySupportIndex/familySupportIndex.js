@@ -5,7 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list:[
+      {
+          pagePath:"/pages/familySupportIndex/familySupportIndex",
+          text:"家政",
+          // iconPath:"/icons/tab-bar/index.png",
+          // selectedIconPath:"/icons/tab-bar/index-selected.png"
+      },
+      {
+        pagePath:"/pages/index/index",
+        text:"云服务",
+        // iconPath:"/icons/tab-bar/index.png",
+        // selectedIconPath:"/icons/tab-bar/index-selected.png"
+      }
+    ]
   },
 
   /**

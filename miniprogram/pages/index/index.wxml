@@ -73,5 +73,6 @@
     </navigator>
   </view>
 
+  <l-tab-bar list="{{list}}"></l-tab-bar>
 
 </view>
