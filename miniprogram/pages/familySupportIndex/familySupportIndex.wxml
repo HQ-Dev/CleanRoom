@@ -1,4 +1,9 @@
 <!--miniprogram/pages/familySupportIndex/familySupportIndex.wxml-->
-<text>miniprogram/pages/familySupportIndex/familySupportIndex.wxml</text>
 
-<l-tab-bar list="{{list}}"></l-tab-bar>
+<view>
+  <text>家政首页</text>
+
+  <l-tab-bar list="{{list}}"></l-tab-bar>
+</view>
+
+

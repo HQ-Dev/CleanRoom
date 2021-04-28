@@ -1,0 +1,7 @@
+<!--miniprogram/pages/familySupportHome/familySupportHome.wxml-->
+
+<view>
+  <text>个人主页</text>
+
+  <l-tab-bar list="{{list}}"></l-tab-bar>
+</view>

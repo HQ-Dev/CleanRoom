@@ -2,6 +2,7 @@
   "pages": [
     "pages/familySupportIndex/familySupportIndex",
     "pages/index/index",
+    "pages/familySupportHome/familySupportHome",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -30,14 +31,17 @@
     "position": "bottom",
     "list": [
       {
-      "pagePath": "pages/familySupportIndex/familySupportIndex",
-      "text": "首页"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "测试"
-    }
+        "pagePath": "pages/familySupportIndex/familySupportIndex",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/familySupportHome/familySupportHome",
+        "text": "测试"
+      }
     ]
   }
-  
 }

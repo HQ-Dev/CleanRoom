@@ -23,6 +23,11 @@ Page({
         text:"云服务",
         // iconPath:"/icons/tab-bar/index.png",
         // selectedIconPath:"/icons/tab-bar/index-selected.png"
+      },{
+        pagePath:"/pages/familySupportHome/familySupportHome",
+        text:"我的",
+        // iconPath:"/icons/tab-bar/index.png",
+        // selectedIconPath:"/icons/tab-bar/index-selected.png"
       }
     ]
   },
