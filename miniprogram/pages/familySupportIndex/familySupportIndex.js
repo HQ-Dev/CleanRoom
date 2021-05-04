@@ -80,5 +80,19 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 上门保洁
+   */
+  homeClean: function() {
+    console.log("用户点击了“上门保洁”！")
+  },
+
+  /**
+   * 保洁入住
+   */
+  cleanMemberAdd: function() {
+    console.log("用户点击了“保洁入住”！")
   }
 })

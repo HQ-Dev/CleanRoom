@@ -12,19 +12,20 @@
     <l-notice-bar show="{{true}}" type="roll" speed="1100" front-icon-name="notification" >这里是通告信息栏！</l-notice-bar>
   </view>
   <!-- 业务服务模块 -->
-  <l-grid class="service-module" l-class="grid" row-num="4" show-col-border="{{true}}">
-    <l-grid-item key="one" slot="one">
-        <view class="num">3</view>
-        <view class="text">助力</view>
+  <l-grid class="service-module" l-class="grid" row-num="2" show-col-border="{{false}}" >
+    <l-grid-item key="one" slot="one" bind:linitemtap="homeClean">
+        <view>
+          <image class="cleanoutIcon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/icons/100-free-unigrid-flat/010.png?sign=8011626849cd9ee03bca2a3619c11705&t=1620170998"></image>
+        </view>
+        <view class="text">上门保洁</view>
      </l-grid-item>
-    <l-grid-item key="two" slot="two">
-        <view class="num">134</view>
-        <view class="text">点赞</view>
+    <l-grid-item key="two" slot="two" bind:linitemtap="cleanMemberAdd">
+      <view>
+          <image class="cleanAddIcon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/icons/businessandeconomy/teamwork.svg?sign=41e9f8f739e5e62b3c778444e221719b&t=1620170937"></image>
+        </view>
+        <view class="text">保洁入驻</view>
     </l-grid-item>
-    <l-grid-item key="three" slot="three">
-        <view class="num">1648</view>
-        <view class="text">评论</view>
-    </l-grid-item>
+    
   </l-grid>
 
 <!-- 自定义的 tabbar -->
