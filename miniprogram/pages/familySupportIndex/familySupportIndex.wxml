@@ -1,17 +1,20 @@
 <!--miniprogram/pages/familySupportIndex/familySupportIndex.wxml-->
 
 <view>
+  <!-- 自定义导航栏 -->
   <my-navigation-bar></my-navigation-bar>
   <!-- 宣传界面 -->
   <view class="ad-page">
-    <image src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/ads/tetiana-shyshkina-ZotOAtt3cIw-unsplash.jpg?sign=7b3c68dc9c9c50912b63a126e97e334d&t=1620112486"></image>
+    <image class="ad-pic" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/ads/tetiana-shyshkina-ZotOAtt3cIw-unsplash.jpg?sign=7b3c68dc9c9c50912b63a126e97e334d&t=1620112486"></image>
   </view>
-
   <!-- 公告栏 -->
   <view class="notice-bar">
     <l-notice-bar show="{{true}}" type="roll" speed="1100" front-icon-name="notification" >这里是通告信息栏！</l-notice-bar>
   </view>
+  <!-- 业务服务模块 -->
+  <view class="service-module">
 
+  </view>
 
 <!-- 自定义的 tabbar -->
   <l-tab-bar list="{{list}}"></l-tab-bar>

@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 70rpx;
   margin-top: 50rpx;
-  margin-left: 15rpx;
+  margin-left: 20rpx;
   padding-top: 10rpx;
 }
 

@@ -4,14 +4,28 @@ page {
 }
 
 .ad-page {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
 
+.ad-pic {
+  width: 100%;
+  border-radius: 20rpx;
 }
 
 .notice-bar {
-
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
 
-.aaa {
-  margin-top: 20rpx;
-  height: 50rpx;
+.service-module {
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
