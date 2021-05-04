@@ -26,6 +26,9 @@
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
+  "usingComponents":{
+    "l-notice-bar":"/miniprogram_npm/lin-ui/notice-bar/index"
+  },
   "tabBar": {
     "custom": true,
     "position": "bottom",

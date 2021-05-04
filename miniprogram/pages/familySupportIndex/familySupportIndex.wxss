@@ -1,1 +1,12 @@
 /* miniprogram/pages/familySupportIndex/familySupportIndex.wxss */
+page {
+  background-color: rgb(205, 236, 226);
+}
+
+.ad-page {
+
+}
+
+.notice-bar {
+  
+}
