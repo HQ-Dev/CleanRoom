@@ -1,7 +1,9 @@
 {
   "usingComponents":{
     "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
-    "my-navigation-bar":"/components/myNavigationBar/myNavigationBar"
+    "my-navigation-bar":"/components/myNavigationBar/myNavigationBar",
+    "l-grid":"/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index"
   },
   "navigationBarTitleText":"家政保洁小程序"
 
