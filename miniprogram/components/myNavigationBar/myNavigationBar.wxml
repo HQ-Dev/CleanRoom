@@ -1,0 +1,4 @@
+<!--components/myNavigationBar/myNavigationBar.wxml-->
+<view class="navigation-bar">
+  <text class="navigation-bar-text">家政保洁小程序</text>
+</view>

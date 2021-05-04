@@ -8,5 +8,10 @@ page {
 }
 
 .notice-bar {
-  
+
+}
+
+.aaa {
+  margin-top: 20rpx;
+  height: 50rpx;
 }

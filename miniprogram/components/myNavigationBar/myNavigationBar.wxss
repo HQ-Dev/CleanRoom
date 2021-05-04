@@ -1,0 +1,13 @@
+/* components/myNavigationBar/myNavigationBar.wxss */
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
+  height: 70rpx;
+  margin-top: 50rpx;
+  margin-left: 15rpx;
+  padding-top: 10rpx;
+}
+
+.navigation-bar-text {
+  /* size: 30; */
+}
