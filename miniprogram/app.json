@@ -14,21 +14,21 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
-    
+    "pages/im/room/room",
+    "pages/familySupportMemberAdd/familySupportMemberAdd"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationBarTextStyle": "black"
+    
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
-  "usingComponents":{
-    "l-notice-bar":"/miniprogram_npm/lin-ui/notice-bar/index"
+  "usingComponents": {
+    "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index"
   },
   "tabBar": {
     "custom": true,

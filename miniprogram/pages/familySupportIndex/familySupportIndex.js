@@ -94,5 +94,10 @@ Page({
    */
   cleanMemberAdd: function() {
     console.log("用户点击了“保洁入住”！")
+    const type = ""
+    // 跳转到保洁入住界面
+    wx.navigateTo({
+      url: '/pages/familySupportMemberAdd/familySupportMemberAdd?type='+type,
+    })
   }
 })
