@@ -3,7 +3,10 @@
     "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
     "my-navigation-bar":"/components/myNavigationBar/myNavigationBar",
     "l-grid":"/miniprogram_npm/lin-ui/grid/index",
-    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index"
-  }
+    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
+    "l-avatar":"/miniprogram_npm/lin-ui/avatar/index",
+    "l-input":"/miniprogram_npm/lin-ui/input/index"
+  },
+  "navigationBarTitleText": "入驻申请"
   
 }

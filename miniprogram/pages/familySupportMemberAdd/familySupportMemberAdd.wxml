@@ -1,2 +1,20 @@
 <!--miniprogram/pages/familySupportMemberAdd/familySupportMemberAdd.wxml-->
-<text>miniprogram/pages/familySupportMemberAdd/familySupportMemberAdd.wxml</text>
+<view class="container">
+  <!-- 用户头像模块 -->
+  <view class="user-module">
+    <l-avatar class="l-avatar" shape="circle" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" />
+  </view>
+
+  <!-- 用户基本信息（姓名、手机号码、身份证号） -->
+  <view class="user-basic-info">
+    <view class="info">
+      <l-input label="真实姓名：" type="text" placeholder="请输入姓名" />
+    </view>
+    <view class="info">
+      <l-input label="手机号码：" type="digit" placeholder="请输入手机号码" />
+    </view>
+    <view class="info">
+      <l-input label="身份证号：" type="idcard" placeholder="请输入手身份证号" />
+    </view>
+  </view>
+</view>

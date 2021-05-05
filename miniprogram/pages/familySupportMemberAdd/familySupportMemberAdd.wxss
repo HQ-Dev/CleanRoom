@@ -1,1 +1,18 @@
 /* miniprogram/pages/familySupportMemberAdd/familySupportMemberAdd.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(209, 62, 91);
+  height: 400rpx;
+}
+
+.l-avatar {
+  margin-top: 115rpx;
+}
+
+.user-basic-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
