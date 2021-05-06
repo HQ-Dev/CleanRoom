@@ -25,4 +25,15 @@
 .idcard-container {
   display: flex;
   flex-direction: column;
+  margin-top: 25rpx;
+  /* 上间距线 */
+  border-top: 1px solid #ededed;
+  padding-top: 40rpx;
+  /* 居中显示 */
+  align-items: center;
+}
+
+.idcard-image {
+  margin-top: 35rpx;
+  margin-bottom: 35rpx;
 }
