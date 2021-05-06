@@ -14,5 +14,5 @@
 .user-basic-info {
   display: flex;
   flex-direction: column;
-  margin-top: 20rpx;
+  margin-top: 100rpx;
 }
