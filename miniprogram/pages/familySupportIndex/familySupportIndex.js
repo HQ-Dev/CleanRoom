@@ -87,6 +87,10 @@ Page({
    */
   homeClean: function() {
     console.log("用户点击了“上门保洁”！")
+    wx.showToast({
+      title: '功能暂未开放',
+      icon:"error"
+    })
   },
 
   /**

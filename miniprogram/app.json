@@ -27,7 +27,14 @@
   "sitemapLocation": "sitemap.json",
   "style": "v2",
   "usingComponents": {
-    "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index"
+    "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index",
+    "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
+    "my-navigation-bar":"/components/myNavigationBar/myNavigationBar",
+    "l-grid":"/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
+    "l-avatar":"/miniprogram_npm/lin-ui/avatar/index",
+    "l-input":"/miniprogram_npm/lin-ui/input/index",
+    "l-toast":"/miniprogram_npm/lin-ui/toast/index"
   },
   "tabBar": {
     "custom": true,

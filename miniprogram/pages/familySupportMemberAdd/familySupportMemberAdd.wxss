@@ -7,7 +7,7 @@
   height: 400rpx;
 }
 
-.l-avatar {
+.user-module {
   margin-top: 115rpx;
 }
 
