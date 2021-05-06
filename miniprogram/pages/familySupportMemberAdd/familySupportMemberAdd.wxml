@@ -26,4 +26,10 @@
     <text>身份证照片(国徽图案面)</text>
     <image class="idcard-image" src="{{idcardUrlBack}}"></image>
   </view>
+
+  <!-- 自我介绍模块 -->
+  <view class="self-introduction">
+    <text>自我介绍</text>
+    <l-textarea class="textarea" autoheight="{{true}}" placeholder="自我介绍或者说说你的想法吧..." indicator="{{true}}"></l-textarea>
+  </view>
 </view>

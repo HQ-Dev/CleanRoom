@@ -37,3 +37,19 @@
   margin-top: 35rpx;
   margin-bottom: 35rpx;
 }
+
+.self-introduction {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25rpx;
+  padding-top: 25rpx;
+  /* 上间距线 */
+  border-top: 1px solid #ededed;
+  /* 文字居中显示 */
+  align-items: center;
+}
+
+.textarea {
+  margin-top: 25rpx;
+  width: 650rpx;
+}
