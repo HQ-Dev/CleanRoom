@@ -12,9 +12,18 @@
     </view>
     <view class="info">
       <l-input label="手机号码：" type="digit" placeholder="请输入手机号码" />
+      <l-button plain="{{true}}" open-type="getPhoneNumber">获取手机号</l-button>
     </view>
     <view class="info">
       <l-input label="身份证号：" type="idcard" placeholder="请输入手身份证号" />
     </view>
+  </view>
+
+  <!-- 用户身份证正反面 -->
+  <view class="idcard-container">
+    <text>身份证照片(个人信息面)</text>
+    <image src="{{idcardUrlFront}}"></image>
+    <text>身份证照片(国徽图案面)</text>
+    <image src="{{idcardUrlBack}}"></image>
   </view>
 </view>

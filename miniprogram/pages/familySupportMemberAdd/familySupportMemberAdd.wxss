@@ -16,3 +16,13 @@
   flex-direction: column;
   margin-top: 100rpx;
 }
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.idcard-container {
+  display: flex;
+  flex-direction: column;
+}

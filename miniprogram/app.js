@@ -14,7 +14,10 @@ App({
         traceUser: true,
       })
     }
-
     this.globalData = {}
-  }
+  },
+
+  // 入驻申请界面
+  idcardFront:"https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E4%B8%AA%E4%BA%BA%E5%85%A5%E9%A9%BB%E7%95%8C%E9%9D%A2/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%AD%A3%E9%9D%A2.png?sign=0edf7d4ce31b0bf1cc5a73294310db04&t=1620279514",
+  idcardBack:"https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E4%B8%AA%E4%BA%BA%E5%85%A5%E9%A9%BB%E7%95%8C%E9%9D%A2/%E8%BA%AB%E4%BB%BD%E8%AF%81%E8%83%8C%E9%9D%A2.png?sign=2a77f641380f0c665aaea55cd881b198&t=1620279688"
 })
