@@ -53,6 +53,7 @@
     <text class="text-one">照片上传</text>
     <text class="text-two">(如个人照片、健康/保险证明等)</text>
     <l-image-picker size="3" count="9"/>
+    <l-button l-class="l-button" type="error" size="large" shape="semicircle">提交审核</l-button>
   </view>
 
 </view>
