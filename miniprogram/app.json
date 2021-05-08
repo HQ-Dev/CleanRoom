@@ -15,28 +15,29 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/familySupportMemberAdd/familySupportMemberAdd"
+    "pages/familySupportMemberAdd/familySupportMemberAdd",
+    "miniprogram_npm/lin-ui/tab-bar/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTextStyle": "black"
-    
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
   "usingComponents": {
     "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index",
-    "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
-    "my-navigation-bar":"/components/myNavigationBar/myNavigationBar",
-    "l-grid":"/miniprogram_npm/lin-ui/grid/index",
-    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
-    "l-avatar":"/miniprogram_npm/lin-ui/avatar/index",
-    "l-input":"/miniprogram_npm/lin-ui/input/index",
-    "l-toast":"/miniprogram_npm/lin-ui/toast/index",
-    "l-button":"/miniprogram_npm/lin-ui/button/index",
-    "l-textarea":"/miniprogram_npm/lin-ui/textarea/index"
+    "l-tab-bar": "/miniprogram_npm/lin-ui/tab-bar/index",
+    "my-navigation-bar": "/components/myNavigationBar/myNavigationBar",
+    "l-grid": "/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item": "/miniprogram_npm/lin-ui/grid-item/index",
+    "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
+    "l-input": "/miniprogram_npm/lin-ui/input/index",
+    "l-toast": "/miniprogram_npm/lin-ui/toast/index",
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "l-textarea": "/miniprogram_npm/lin-ui/textarea/index",
+    "l-image-picker": "/miniprogram_npm/lin-ui/image-picker/index"
   },
   "tabBar": {
     "custom": true,

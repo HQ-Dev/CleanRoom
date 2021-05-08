@@ -47,4 +47,12 @@
         </checkbox-group>
     </view>
   </view>
+
+  <!-- 相关照片上传模块（个人照片、健康/保险证明、教师资格证等） -->
+  <view class="personal-info-image">
+    <text class="text-one">照片上传</text>
+    <text class="text-two">(如个人照片、健康/保险证明等)</text>
+    <l-image-picker size="3" count="9"/>
+  </view>
+
 </view>

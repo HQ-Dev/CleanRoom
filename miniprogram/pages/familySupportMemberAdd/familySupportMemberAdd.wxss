@@ -71,3 +71,22 @@
 .checkbox {
   padding-bottom: 15rpx;
 }
+
+.personal-info-image {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55rpx;
+  border-top: 1px solid #ededed;
+  align-items: center;
+  width: 90%;
+}
+
+.text-one {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.text-two {
+  margin-bottom: 20rpx;
+  size: 10;
+}
