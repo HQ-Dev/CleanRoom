@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -20,6 +21,12 @@
         {
           "name": "pages/familySupportMemberAdd/familySupportMemberAdd",
           "pathName": "pages/familySupportMemberAdd/familySupportMemberAdd",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/familySupportHome/familySupportHome",
+          "pathName": "pages/familySupportHome/familySupportHome",
           "scene": null
         }
       ]

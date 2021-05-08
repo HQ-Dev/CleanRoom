@@ -1,7 +1,26 @@
 <!--miniprogram/pages/familySupportHome/familySupportHome.wxml-->
 
-<view>
-  <text>个人主页</text>
+<view class="container">
+  <!-- 用户头像模块 -->
+  <view class="user-module">
+    <l-avatar class="l-avatar" shape="circle" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" />
+  </view>
+
+  <!-- 订单模块 -->
+  <view class="order-part">
+    <view class="order-part-title">
+      <text>我的订单</text>
+      <label>全部订单 ></label>
+    </view>
+
+    <view class="order-part-function">
+      <icon type="success"></icon>
+      <icon type="success"></icon>
+      <icon type="success"></icon>
+      <icon type="success"></icon>
+    </view>
+  </view>
+
 
   <l-tab-bar list="{{list}}"></l-tab-bar>
 </view>

@@ -31,11 +31,13 @@ page {
 }
 
 .cleanoutIcon {
+  padding-top: 75rpx;
   width: 80rpx;
   height: 80rpx;
 }
 
 .cleanAddIcon {
+  padding-top: 75rpx;
   width: 80rpx;
   height: 80rpx;
 }
