@@ -10,14 +10,27 @@
   <view class="order-part">
     <view class="order-part-title">
       <text>我的订单</text>
-      <label>全部订单 ></label>
+      <label>全部订单></label>
     </view>
 
-    <view class="order-part-function">
-      <icon type="success"></icon>
-      <icon type="success"></icon>
-      <icon type="success"></icon>
-      <icon type="success"></icon>
+    <view class="order-part-module">
+      <view class="order-part-icon-view">
+        <image class="order-part-icon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E6%88%91%E7%9A%84/%E5%BE%85%E4%BB%98%E6%AC%BE.svg?sign=69567b8b2c50a5f3db70959aefda95f7&t=1620659946"></image>
+        <text class="order-part-icon-text">待支付</text>
+      </view>
+      <view class="order-part-icon-view">
+        <image class="order-part-icon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E6%88%91%E7%9A%84/%E5%BE%85%E6%8E%A5%E5%8D%95.svg?sign=04f062c5eb73389860d7caada99fcf9e&t=1620659957"></image>
+        <text class="order-part-icon-text">待接单</text>
+      </view>
+      <view class="order-part-icon-view">
+        <image class="order-part-icon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E6%88%91%E7%9A%84/%E5%BE%85%E6%9C%8D%E5%8A%A1.svg?sign=cfda6eee821eedadd843ee203f3f9dd6&t=1620659970"></image>
+        <text class="order-part-icon-text">待服务</text>
+      </view>
+      <view class="order-part-icon-view">
+        <image class="order-part-icon" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/%E6%88%91%E7%9A%84/%E5%B7%B2%E5%AE%8C%E6%88%90.svg?sign=cd42f1459cafe3b2a65b4513eaabf100&t=1620659906"></image>
+        <text class="order-part-icon-text">已完成</text>
+      </view>
+      
     </view>
   </view>
 

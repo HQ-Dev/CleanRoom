@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(99, 233, 139, 0.5);
-  height: 300rpx;
+  height: 320rpx;
 }
 
 .user-module {
@@ -17,15 +17,40 @@
   flex-direction: column;
   border-radius: 15rpx;
   background-color: rgb(255, 255, 255);
-  width: 95%;
+  width: 90%;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
 }
 
 .order-part-title {
   display: flex;
   flex-direction: row;
+  /* 文字考左右两边布局 */
+  justify-content: space-between;
+  padding-top: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
 }
 
-.order-part-function {
+.order-part-module {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-part-icon-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-part-icon {
+  margin-top: 25rpx;
+  margin-left: 40rpx;
+  margin-right:40rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+
+.order-part-icon-text {
+  padding-left: 25rpx;
 }
