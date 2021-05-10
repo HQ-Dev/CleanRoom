@@ -7,23 +7,23 @@ Page({
   data: {
     list:[
       {
-          pagePath:"/pages/familySupportIndex/familySupportIndex",
-          text:"家政",
-          // iconPath:"/icons/tab-bar/index.png",
-          // selectedIconPath:"/icons/tab-bar/index-selected.png"
-      },
-      {
-        pagePath:"/pages/index/index",
-        text:"云服务",
-        // iconPath:"/icons/tab-bar/index.png",
-        // selectedIconPath:"/icons/tab-bar/index-selected.png"
-      },
-      {
-        pagePath:"/pages/familySupportHome/familySupportHome",
-        text:"我的",
-        // iconPath:"/icons/tab-bar/index.png",
-        // selectedIconPath:"/icons/tab-bar/index-selected.png"
-      }
+        pagePath:"/pages/familySupportIndex/familySupportIndex",
+        text:"家政",
+        iconPath:"/images/tabIcons/首页.svg",
+        selectedIconPath:"/images/tabIcons/首页(选中).svg"
+    },
+    {
+      pagePath:"/pages/index/index",
+      text:"订单",
+      iconPath:"/images/tabIcons/订单.svg",
+      selectedIconPath:"/images/tabIcons/订单(选中).svg"
+    },
+    {
+      pagePath:"/pages/familySupportHome/familySupportHome",
+      text:"我的",
+      iconPath:"/images/tabIcons/我的.svg",
+      selectedIconPath:"/images/tabIcons/我的(选中).svg"
+    }
     ]
   },
 
