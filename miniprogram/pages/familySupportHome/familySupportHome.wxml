@@ -3,7 +3,8 @@
 <view class="container">
   <!-- 用户头像模块 -->
   <view class="user-module">
-    <l-avatar class="l-avatar" shape="circle" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" />
+    <l-avatar class="l-avatar" shape="circle" placement="right" open-data="{{['userAvatarUrl','userNickName']}}" />
+    <label class="user-label">设置</label>
   </view>
 
   <!-- 订单模块 -->

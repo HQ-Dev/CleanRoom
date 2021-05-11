@@ -9,7 +9,20 @@
 }
 
 .user-module {
-  margin-top: 85rpx;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  height: 230rpx;
+}
+
+.l-avatar {
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+}
+
+.user-label {
+  margin-top: 95rpx;
 }
 
 .order-part {
