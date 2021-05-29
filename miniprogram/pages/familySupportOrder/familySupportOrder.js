@@ -1,4 +1,4 @@
-// miniprogram/pages/familySupportIndex/familySupportIndex.js
+// miniprogram/pages/familySupportOrder/familuSupportOrder.js
 Page({
 
   /**
@@ -87,28 +87,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  /**
-   * 上门保洁
-   */
-  homeClean: function() {
-    console.log("用户点击了“上门保洁”！")
-    wx.showToast({
-      title: '功能暂未开放',
-      icon:"error"
-    })
-  },
-
-  /**
-   * 保洁入住
-   */
-  cleanMemberAdd: function() {
-    console.log("用户点击了“保洁入住”！")
-    const type = ""
-    // 跳转到保洁入住界面
-    wx.navigateTo({
-      url: '/pages/familySupportMemberAdd/familySupportMemberAdd?type='+type,
-    })
   }
 })

@@ -22,7 +22,7 @@
   <!-- 用户身份证正反面 -->
   <view class="idcard-container">
     <text>身份证照片(个人信息面)</text>
-    <image class="idcard-image" src="{{idcardUrlFront}}"></image>
+    <image class="idcard-image" src="{{idcardUrlFront}}" bind:tap="chooseFrontIdCard"></image>
     <text>身份证照片(国徽图案面)</text>
     <image class="idcard-image" src="{{idcardUrlBack}}"></image>
   </view>

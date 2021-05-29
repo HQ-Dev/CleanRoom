@@ -16,7 +16,8 @@
     "pages/im/im",
     "pages/im/room/room",
     "pages/familySupportMemberAdd/familySupportMemberAdd",
-    "miniprogram_npm/lin-ui/tab-bar/index"
+    "miniprogram_npm/lin-ui/tab-bar/index",
+    "pages/familySupportOrder/familySupportOrder"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -38,7 +39,6 @@
     "l-button": "/miniprogram_npm/lin-ui/button/index",
     "l-textarea": "/miniprogram_npm/lin-ui/textarea/index",
     "l-image-picker": "/miniprogram_npm/lin-ui/image-picker/index"
-
   },
   "tabBar": {
     "custom": true,
@@ -50,11 +50,15 @@
       },
       {
         "pagePath": "pages/index/index",
-        "text": "测试"
+        "text": "测试页"
+      },
+      {
+        "pagePath": "pages/familySupportOrder/familySupportOrder",
+        "text":"订单"
       },
       {
         "pagePath": "pages/familySupportHome/familySupportHome",
-        "text": "测试"
+        "text": "我的"
       }
     ]
   }

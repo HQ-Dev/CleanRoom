@@ -1,0 +1,9 @@
+<!--miniprogram/pages/familySupportOrder/familuSupportOrder.wxml-->
+
+<view>
+
+  <text>订单详情页</text>
+
+  <!-- 自定义的 tabbar -->
+  <l-tab-bar list="{{list}}"></l-tab-bar>
+</view>

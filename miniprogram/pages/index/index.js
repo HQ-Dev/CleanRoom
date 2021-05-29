@@ -20,6 +20,12 @@ Page({
     },
     {
       pagePath:"/pages/index/index",
+      text:"测试页",
+      iconPath:"/images/tabIcons/订单.svg",
+      selectedIconPath:"/images/tabIcons/订单(选中).svg"
+    },
+    {
+      pagePath:"/pages/familySupportOrder/familySupportOrder",
       text:"订单",
       iconPath:"/images/tabIcons/订单.svg",
       selectedIconPath:"/images/tabIcons/订单(选中).svg"

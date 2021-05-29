@@ -14,6 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log("sssss")
     this.setData({
       idcardUrlFront : app.idcardFront,
       idcardUrlBack : app.idcardBack
@@ -67,5 +68,22 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  chooseFrontIdCard: function() {
+    let tempFilePaths = this.data.idcardUrlFront;
+    wx.chooseImage({
+      count: 1,
+      sizeType:'compressed',
+      sourceType: ['album', 'camera'],
+      success: res => {
+        // tempFilePath可以作为img标签的src属性显示图片
+        tempFilePaths = res.tempFilePaths
+        console.log(tempFilePaths)
+        this.setData({
+          idcardFront:tempFilePaths
+        })
+      }
+    })
   }
 })
