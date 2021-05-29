@@ -24,7 +24,7 @@
     <text>身份证照片(个人信息面)</text>
     <image class="idcard-image" src="{{idcardUrlFront}}" bind:tap="chooseFrontIdCard"></image>
     <text>身份证照片(国徽图案面)</text>
-    <image class="idcard-image" src="{{idcardUrlBack}}"></image>
+    <image class="idcard-image" src="{{idcardUrlBack}}" bind:tap="chooseBackIdCard"></image>
   </view>
 
   <!-- 自我介绍模块 -->

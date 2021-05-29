@@ -70,6 +70,9 @@ Page({
 
   },
 
+  /**
+   * 身份证正面
+   */
   chooseFrontIdCard: function() {
     let tempFilePaths = this.data.idcardUrlFront;
     wx.chooseImage({
@@ -79,9 +82,29 @@ Page({
       success: res => {
         // tempFilePath可以作为img标签的src属性显示图片
         tempFilePaths = res.tempFilePaths
-        console.log(tempFilePaths)
+        console.log("插入新图片了，地址：" + tempFilePaths)
         this.setData({
-          idcardFront:tempFilePaths
+          idcardUrlFront:tempFilePaths
+        })
+      }
+    })
+  },
+
+  /**
+   * 身份证背面
+   */
+  chooseBackIdCard: function (params) {
+    let tempFilePaths = this.data.idcardUrlBack;
+    wx.chooseImage({
+      count: 1,
+      sizeType:'compressed',
+      sourceType: ['album', 'camera'],
+      success: res => {
+        // tempFilePath可以作为img标签的src属性显示图片
+        tempFilePaths = res.tempFilePaths
+        console.log("插入新图片了，地址：" + tempFilePaths)
+        this.setData({
+          idcardUrlBack:tempFilePaths
         })
       }
     })
