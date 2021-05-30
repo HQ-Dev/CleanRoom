@@ -7,14 +7,14 @@ Page({
    */
   data: {
     idcardUrlFront : "",
-    idcardUrlBack : ""
+    idcardUrlBack : "",
+    trueName:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("sssss")
     this.setData({
       idcardUrlFront : app.idcardFront,
       idcardUrlBack : app.idcardBack
@@ -108,5 +108,15 @@ Page({
         })
       }
     })
+  },
+
+  nameBind(param) {
+    this.setData({
+      trueName:param.detail.value
+    })
+  },
+
+  submitUserInfo: function(param) {
+    
   }
 })
