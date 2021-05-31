@@ -8,14 +8,14 @@
   <!-- 用户基本信息（姓名、手机号码、身份证号） -->
   <view class="user-basic-info">
     <view class="info">
-      <l-input label="真实姓名：" type="text" placeholder="请输入姓名" bind:linblur="nameBind" />
+      <l-input label="真实姓名：" type="text" placeholder="请输入姓名" bind:lininput="nameBind" />
     </view>
     <view class="info">
-      <l-input label="手机号码：" type="digit" placeholder="请输入手机号码" />
+      <l-input label="手机号码：" type="digit" placeholder="请输入手机号码" bind:lininput="phoneBind"/>
       <l-button plain="{{true}}" open-type="getPhoneNumber">获取手机号</l-button>
     </view>
     <view class="info">
-      <l-input label="身份证号：" type="idcard" placeholder="请输入身份证号" />
+      <l-input label="身份证号：" type="idcard" placeholder="请输入身份证号" bind:linblur="idCardBind" />
     </view>
   </view>
 
@@ -30,7 +30,7 @@
   <!-- 自我介绍模块 -->
   <view class="self-introduction">
     <text>自我介绍</text>
-    <l-textarea class="textarea" autoheight="{{true}}" placeholder="自我介绍或者说说你的想法吧..." indicator="{{true}}"></l-textarea>
+    <l-textarea class="textarea" autoheight="{{true}}" placeholder="自我介绍或者说说你的想法吧..." indicator="{{true}}" bind:lininput="introductionBind"></l-textarea>
   </view>
 
   <!-- 服务细分模块 -->

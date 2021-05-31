@@ -8,7 +8,10 @@ Page({
   data: {
     idcardUrlFront : "",
     idcardUrlBack : "",
-    trueName:""
+    trueName:"",
+    phoneNumber:"",
+    idCardNumber:"",
+    selfIntroduction:""
   },
 
   /**
@@ -110,13 +113,52 @@ Page({
     })
   },
 
+  /**
+   * 真实姓名绑定
+   * @param {}} param 
+   */
   nameBind(param) {
     this.setData({
       trueName:param.detail.value
     })
   },
 
+  /**
+   * 手机号码绑定
+   * @param {} param 
+   */
+  phoneBind(param) {
+    this.setData({
+      phoneNumber:param.detail.value
+    })
+  },
+
+  /**
+   * 身份证好吗绑定
+   * @param {} param 
+   */
+  idCardBind(param) {
+    this.setData({
+      idCardNumber:param.detail.value
+    })
+  },
+
+  /**
+   * 自我介绍绑定
+   * @param {*} param 
+   */
+  introductionBind(param) {
+    this.setData({
+      selfIntroduction:param.detail.value
+    })
+  },
+
   submitUserInfo: function(param) {
-    
+    console.log("真实姓名：" + this.data.trueName +"\n"
+    + "手机号码：" + this.data.phoneNumber +"\n" +
+    "身份证号码：" + this.data.idCardNumber + "\n" +
+    "身份证正面路径：" + this.data.idcardUrlFront + "\n" +
+    "身份证背面路径：" + this.data.idcardUrlFront + "\n" +
+    "自我介绍：" + this.data.selfIntroduction + "\n")
   }
 })
