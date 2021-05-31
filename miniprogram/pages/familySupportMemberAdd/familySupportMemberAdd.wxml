@@ -15,7 +15,7 @@
       <l-button plain="{{true}}" open-type="getPhoneNumber">获取手机号</l-button>
     </view>
     <view class="info">
-      <l-input label="身份证号：" type="idcard" placeholder="请输入身份证号" bind:linblur="idCardBind" />
+      <l-input label="身份证号：" type="idcard" placeholder="请输入身份证号" bind:lininput="idCardBind" />
     </view>
   </view>
 
@@ -37,13 +37,13 @@
   <view class="provide-service">
     <text>选择服务行业(多选)</text>
     <view class="service-list">
-      <checkbox-group>
-          <checkbox class="checkbox">家电维装</checkbox>
-          <checkbox class="checkbox">保洁清洗</checkbox>
-          <checkbox class="checkbox">房屋修装</checkbox>
-          <checkbox class="checkbox">家具维装</checkbox>
-          <checkbox class="checkbox">管道疏通</checkbox>
-          <checkbox class="checkbox">其他</checkbox>
+      <checkbox-group bindchange="serverFields">
+          <checkbox class="checkbox" value="家电维装">家电维装</checkbox>
+          <checkbox class="checkbox" value="保洁清洗">保洁清洗</checkbox>
+          <checkbox class="checkbox" value="房屋修装">房屋修装</checkbox>
+          <checkbox class="checkbox" value="家具维装">家具维装</checkbox>
+          <checkbox class="checkbox" value="管道疏通">管道疏通</checkbox>
+          <checkbox class="checkbox" value="其他">其他</checkbox>
         </checkbox-group>
     </view>
   </view>

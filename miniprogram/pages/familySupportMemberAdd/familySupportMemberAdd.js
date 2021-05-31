@@ -11,7 +11,13 @@ Page({
     trueName:"",
     phoneNumber:"",
     idCardNumber:"",
-    selfIntroduction:""
+    selfIntroduction:"",
+    householdElectrical:false,
+    houseClean:false,
+    houseRepair:false,
+    furnitureRepair:false,
+    rushPipe:false,
+    others:false,
   },
 
   /**
@@ -152,6 +158,33 @@ Page({
       selfIntroduction:param.detail.value
     })
   },
+  /**
+   * 服务行业数组中筛选
+   */
+  serverFields(param) {
+    this.setData({
+      householdElectrical:this.judgeFields(param.detail.value,"家电维装"),
+      houseClean:this.judgeFields(param.detail.value,"保洁清洗"),
+      houseRepair:this.judgeFields(param.detail.value,"房屋修装"),
+      furnitureRepair:this.judgeFields(param.detail.value,"家具维装"),
+      rushPipe:this.judgeFields(param.detail.value,"管道疏通"),
+      others:this.judgeFields(param.detail.value,"其他")
+    })
+  },
+  /**
+   * 数组筛选实现
+   */
+  judgeFields(fieldsArray,field) {
+    let array = Array.from(fieldsArray);
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] == field) {
+        return true;
+      }
+    }
+    return false;
+  },
+
+
 
   submitUserInfo: function(param) {
     console.log("真实姓名：" + this.data.trueName +"\n"
@@ -159,6 +192,13 @@ Page({
     "身份证号码：" + this.data.idCardNumber + "\n" +
     "身份证正面路径：" + this.data.idcardUrlFront + "\n" +
     "身份证背面路径：" + this.data.idcardUrlFront + "\n" +
-    "自我介绍：" + this.data.selfIntroduction + "\n")
+    "自我介绍：" + this.data.selfIntroduction + "\n" +
+    "选择的服务行业：" + "\n" + 
+    (this.data.householdElectrical?"家电维装\n":"") +
+    (this.data.houseClean?"保洁清洗\n":"") +
+    (this.data.houseRepair?"房屋修装\n":"") +
+    (this.data.furnitureRepair?"家具维装\n":"") +
+    (this.data.rushPipe?"管道疏通\n":"") +
+    (this.data.others?"其他\n":"") )
   }
 })
