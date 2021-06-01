@@ -18,6 +18,7 @@ Page({
     furnitureRepair:false,
     rushPipe:false,
     others:false,
+    pics:[]
   },
 
   /**
@@ -140,7 +141,7 @@ Page({
   },
 
   /**
-   * 身份证好吗绑定
+   * 身份证号码绑定
    * @param {} param 
    */
   idCardBind(param) {
@@ -183,10 +184,27 @@ Page({
     }
     return false;
   },
-
-
+  /**
+   * 照片增加绑定
+   */
+  imageAdd: function(param) {
+    this.setData({
+      pics:param.detail.all
+    })
+  },
+  /**
+   * 照片去除绑定
+   */
+  imageRemove: function(param) {
+    this.setData({
+      pics:param.detail.all
+    })
+  },
 
   submitUserInfo: function(param) {
+
+    console.log(this.data.pics)
+
     console.log("真实姓名：" + this.data.trueName +"\n"
     + "手机号码：" + this.data.phoneNumber +"\n" +
     "身份证号码：" + this.data.idCardNumber + "\n" +
@@ -199,6 +217,8 @@ Page({
     (this.data.houseRepair?"房屋修装\n":"") +
     (this.data.furnitureRepair?"家具维装\n":"") +
     (this.data.rushPipe?"管道疏通\n":"") +
-    (this.data.others?"其他\n":"") )
+    (this.data.others?"其他\n":"") + 
+    "上传的多张图片路径："
+    )
   }
 })
