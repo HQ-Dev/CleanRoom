@@ -27,6 +27,13 @@
         {
           "name": "pages/familySupportHome/familySupportHome",
           "pathName": "pages/familySupportHome/familySupportHome",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
           "scene": null
         }
       ]

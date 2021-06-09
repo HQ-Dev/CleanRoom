@@ -54,7 +54,7 @@
       },
       {
         "pagePath": "pages/familySupportOrder/familySupportOrder",
-        "text":"订单"
+        "text": "订单"
       },
       {
         "pagePath": "pages/familySupportHome/familySupportHome",

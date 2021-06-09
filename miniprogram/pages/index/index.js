@@ -112,9 +112,11 @@ Page({
         })
 
         const filePath = res.tempFilePaths[0]
+        console.log("选中图片本地路径：" + filePath)
         
         // 上传图片
         const cloudPath = `my-image${filePath.match(/\.[^.]+?$/)[0]}`
+        console.log("cloudPath:" + cloudPath)
         wx.cloud.uploadFile({
           cloudPath,
           filePath,
