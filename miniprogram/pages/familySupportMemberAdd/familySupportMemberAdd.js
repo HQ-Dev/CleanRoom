@@ -179,6 +179,11 @@ Page({
     this.storeInfoIntoCloudDB();
 
     console.log("上传完成，更新完成")
+
+    // 提交审核，上传完毕后跳转到
+    wx.redirectTo({
+      url: '/pages/familySupportMemberAddDone/familySupportMemberAddDone',
+    })
   },
 
   /**

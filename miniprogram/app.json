@@ -17,7 +17,8 @@
     "pages/im/room/room",
     "pages/familySupportMemberAdd/familySupportMemberAdd",
     "miniprogram_npm/lin-ui/tab-bar/index",
-    "pages/familySupportOrder/familySupportOrder"
+    "pages/familySupportOrder/familySupportOrder",
+    "pages/familySupportMemberAddDone/familySupportMemberAddDone"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

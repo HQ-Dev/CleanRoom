@@ -1,0 +1,4 @@
+<!--miniprogram/pages/familySupportMemberAddDone/familySupportMemberAddDone.wxml-->
+<view>
+  <text>审核资料已经提交，正在审核中，大约需要一个工作日，请耐心等待</text>
+</view>
