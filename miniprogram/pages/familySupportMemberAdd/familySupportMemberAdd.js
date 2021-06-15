@@ -125,41 +125,6 @@ Page({
   },
 
   /**
-   * 真实姓名绑定
-   */
-  nameBind(param) {
-    this.setData({
-      trueName:param.detail.value
-    })
-  },
-
-  /**
-   * 手机号码绑定
-   */
-  phoneBind(param) {
-    this.setData({
-      phoneNumber:param.detail.value
-    })
-  },
-
-  /**
-   * 身份证号码绑定
-   */
-  idCardBind(param) {
-    this.setData({
-      idCardNumber:param.detail.value
-    })
-  },
-
-  /**
-   * 自我介绍绑定
-   */
-  introductionBind(param) {
-    this.setData({
-      selfIntroduction:param.detail.value
-    })
-  },
-  /**
    * 服务行业数组绑定
    */
   serverFields(param) {
