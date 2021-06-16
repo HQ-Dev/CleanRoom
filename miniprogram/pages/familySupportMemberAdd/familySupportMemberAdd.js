@@ -168,6 +168,17 @@ Page({
   },
 
   submitUserInfo: async function(param) {
+    // wx.showNavigationBarLoading()
+    
+    wx.showLoading({
+      title: '加载中',
+      mask:true,
+    })
+    
+    // setTimeout(function () {
+    //   wx.hideLoading()
+    // }, 4000)
+    
     // this.printBindingInfos();
     // 上传身份证图片，获取 fileID
     await this.storeIDCardFilesIntoCloudDB();
