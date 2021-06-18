@@ -35,6 +35,12 @@
           "pathName": "pages/login/login",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/familyCollect/familyCollect",
+          "pathName": "pages/familyCollect/familyCollect",
+          "query": "",
+          "scene": null
         }
       ]
     }
