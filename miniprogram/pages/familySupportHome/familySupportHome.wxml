@@ -11,7 +11,7 @@
   <view class="order-part">
     <view class="order-part-title">
       <text>我的订单</text>
-      <label>全部订单></label>
+      <label bindtap="getAllOrders">全部订单></label>
     </view>
 
     <view class="order-part-module">

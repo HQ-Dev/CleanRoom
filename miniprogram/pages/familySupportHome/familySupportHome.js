@@ -89,19 +89,31 @@ Page({
 
   },
 
-  collectView: function() {
+  getAllOrders: function() {
+    wx.navigateTo({
+      url: '/pages/familyUserOrder/familyUserOrder',
+    })
+  },
 
+  collectView: function() {
+    wx.navigateTo({
+      url: '/pages/familyCollect/familyCollect',
+    })
   },
 
   couponView: function() {
-
+    wx.navigateTo({
+      url: '/pages/familyCoupon/familyCoupon',
+    })
   },
 
   helpView: function() {
-
+    wx.navigateTo({
+      url: '/pages/familyHelp/familyHelp',
+    })
   },
 
   logoutView: function() {
-    
+
   }
 })
