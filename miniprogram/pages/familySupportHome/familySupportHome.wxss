@@ -21,9 +21,9 @@
   margin-left: 20rpx;
 }
 
-.user-label {
+/* .user-label {
   margin-top: 95rpx;
-}
+} */
 
 .order-part {
   display: flex;
@@ -33,12 +33,13 @@
   width: 90%;
   margin-left: 30rpx;
   margin-right: 30rpx;
+  margin-bottom: 25rpx;
 }
 
 .order-part-title {
   display: flex;
   flex-direction: row;
-  /* 文字考左右两边布局 */
+  /* 文字靠左右两边布局 */
   justify-content: space-between;
   padding-top: 10rpx;
   padding-left: 30rpx;
@@ -66,4 +67,52 @@
 
 .order-part-icon-text {
   padding-left: 25rpx;
+}
+
+.collect-view {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  height: 110rpx;
+  margin-bottom: 2rpx;
+}
+
+.collect-text {
+ margin-left: 30rpx;
+ /* 文字垂直居中，高度和父元素相等 */
+ line-height: 110rpx;
+}
+
+.collect-symbol {
+  margin-right: 30rpx;
+  color: darkgrey;
+  line-height: 110rpx;
+}
+
+.collect-view2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  height: 110rpx;
+  margin-top: 20rpx;
+}
+
+.logout-view {
+  margin-top: 65rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  height: 110rpx;
+  margin-bottom: 2rpx;
+  /* 组件中元素居中显示 使用 flex 布局 */
+  justify-content: center;
+}
+
+.logout-text {
+  line-height: 110rpx;
 }

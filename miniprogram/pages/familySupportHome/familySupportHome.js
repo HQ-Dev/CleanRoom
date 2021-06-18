@@ -87,5 +87,21 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  collectView: function() {
+
+  },
+
+  couponView: function() {
+
+  },
+
+  helpView: function() {
+
+  },
+
+  logoutView: function() {
+    
   }
 })

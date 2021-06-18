@@ -6,6 +6,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    cardRule:[{
+      required: true
+      },{
+      type: 'number',
+      min: 16,
+      max: 19,
+      message: "长度在16-19之间"
+    }],
     trueName:"",  // 服务者姓名       
     phoneNumber:"",  // 手机号码
     idCardNumber:"",  // 身份证号码  
@@ -21,7 +29,8 @@ Page({
     rushPipe:false,  // 管道疏通
     others:false,  // 其他
     pics:[],  // 其它个人信息图片
-    otherInfoFileIDs:new Array() // 其它个人信息图片 fileID 集合
+    otherInfoFileIDs:new Array(), // 其它个人信息图片 fileID 集合
+    status:"in review"  // 入驻申请状态 in review; verified; unverified
   },
 
   /**
@@ -33,13 +42,18 @@ Page({
       idcardUrlFront : app.idcardFront,
       idcardUrlBack : app.idcardBack
     })
+
+    // 查询数据库是否有该用户的入驻申请，根据情况显示不同的页面
+    // 审核中in review 审核通过verified 审核未通过unverified
+    let db = wx.cloud.database();
+    // db.collection("serverProviderInfo").
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
@@ -168,16 +182,11 @@ Page({
   },
 
   submitUserInfo: async function(param) {
-    // wx.showNavigationBarLoading()
     
     wx.showLoading({
       title: '加载中',
       mask:true,
     })
-    
-    // setTimeout(function () {
-    //   wx.hideLoading()
-    // }, 4000)
     
     // this.printBindingInfos();
     // 上传身份证图片，获取 fileID
@@ -278,7 +287,8 @@ Page({
             furnitureRepair:this.data.furnitureRepair,
             rushPipe:this.data.rushPipe,
             others:this.data.others
-          }
+          },
+         status:this.data.status 
       }
     }).then(res => {
       console.log(res)
@@ -286,6 +296,9 @@ Page({
     })
   },
 
+  /**
+   * 打印相关信息
+   */
   printBindingInfos: function() {
     console.log(this.data.pics);
     console.log("真实姓名：" + this.data.trueName +"\n"

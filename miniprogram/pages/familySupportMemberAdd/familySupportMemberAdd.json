@@ -7,7 +7,8 @@
     "l-avatar":"/miniprogram_npm/lin-ui/avatar/index",
     "l-input":"/miniprogram_npm/lin-ui/input/index",
     "l-checkbox":"/miniprogram_npm/lin-ui/checkbox/index",
-    "l-toast":"/miniprogram_npm/lin-ui/toast/index"
+    "l-toast":"/miniprogram_npm/lin-ui/toast/index",
+    "l-message":"/miniprogram_npm/lin-ui/message/index"
   },
   "navigationBarTitleText": "入驻申请"
   
