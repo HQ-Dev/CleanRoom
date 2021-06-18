@@ -116,3 +116,7 @@
 .logout-text {
   line-height: 110rpx;
 }
+
+.my-hover {
+  background-color: lightgray;
+}

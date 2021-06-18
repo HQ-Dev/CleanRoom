@@ -35,21 +35,21 @@
   </view>
 
   <!-- 收藏、卡劵、帮助 -->
-  <view class="collect-view" bindtap="collectView">
+  <view class="collect-view" bindtap="collectView" hover-class="my-hover" hover-stay-time="224">
     <text class="collect-text">收藏</text>
     <text class="collect-symbol">></text>
   </view>
-  <view class="collect-view" bindtap="couponView">
+  <view class="collect-view" bindtap="couponView" hover-class="my-hover" hover-stay-time="224">
     <text class="collect-text">卡券</text>
     <text class="collect-symbol">></text>
   </view>
 
-  <view class="collect-view2" bindtap="helpView">
+  <view class="collect-view2" bindtap="helpView" hover-class="my-hover" hover-stay-time="224">
     <text class="collect-text">帮助</text>
     <text class="collect-symbol">></text>
   </view>
 
-  <view class="logout-view" bindtap="logoutView">
+  <view class="logout-view" bindtap="logoutView" hover-class="my-hover" hover-stay-time="224">
     <text class="logout-text">退出登录</text>
   </view>
 
