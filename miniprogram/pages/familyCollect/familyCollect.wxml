@@ -1,13 +1,22 @@
 <!--miniprogram/pages/familyCollect/familyCollect.wxml-->
 <view class="page">
+
   <l-tabs placement="top">
+
     <l-tab-panel tab="服务" key="one" slot="one">
       <view class="server-tab-content">
+        <none-collect>
+        </none-collect>
       </view>
     </l-tab-panel>
+
     <l-tab-panel tab="商家" key="two" slot="two">
       <view class="business-tab-content">
+        <none-collect>
+        </none-collect>
       </view>
     </l-tab-panel>
+
   </l-tabs>
+
 </view>

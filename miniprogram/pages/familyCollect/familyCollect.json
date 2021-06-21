@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
-    "l-tab-panel":"/miniprogram_npm/lin-ui/tabpanel/index"
+    "l-tab-panel":"/miniprogram_npm/lin-ui/tabpanel/index",
+    "none-collect":"/components/noneCollectPage/noneCollectPage"
   }
 }

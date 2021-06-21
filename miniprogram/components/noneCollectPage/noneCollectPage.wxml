@@ -1,0 +1,7 @@
+<!--components/noneCollectPage/noneCollectPage.wxml-->
+<view class="page">
+  <image class="none-collect-image" mode="aspectFit" src="https://636c-cloud1-8giyelmo48e04b7e-1305708349.tcb.qcloud.la/pics/ads/none-collect.jpg?sign=1021a149b964f8d1b88ca5577cde139c&t=1624257184"></image>
+  <text class="collect-text">暂无收藏</text>
+  <button class="collect-button">查看全部服务</button>
+  <slot></slot>
+</view>

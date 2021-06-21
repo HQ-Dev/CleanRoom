@@ -1,0 +1,27 @@
+/* components/noneCollectPage/noneCollectPage.wxss */
+.page {
+  display: flex;
+  flex-direction: column;
+  /* 组件内的组件居中显示 */
+  align-items: center;
+}
+
+.none-collect-image {
+  margin-top: 30rpx;
+}
+
+.collect-text {
+  margin-top: 10rpx;
+  color: rgb(85, 90, 89);
+  /* css 设置字体大小 */
+  font-size: 36rpx;
+}
+
+.collect-button {
+  margin-top: 60rpx;
+  border: 1rpx solid red ;
+  border-radius: 50rpx;
+  font-size: 36rpx;
+  color: red;
+  font-weight: 400;
+}
